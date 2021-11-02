@@ -1,2 +1,3 @@
 # Teste-Pratico-UpBase
-Created with CodeSandbox
+
+Link para acessar o projeto [aqui](https://do6o3.csb.app/)
