@@ -1,0 +1,105 @@
+.navbar {
+  background-color: #fff;
+  margin: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .nav-div {
+  display: flex;
+  align-items: center;
+}
+
+.navbar h1 {
+  margin: 0 30px 0 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav .dropdown button,
+nav .dropdown button:enabled,
+nav .dropdown button:enabled {
+  border: none;
+  background-color: #fff;
+  box-shadow: none;
+}
+
+nav .dropdown-azul button,
+nav .dropdown-azul button:hover,
+nav .dropdown-azul button:enabled {
+  color: var(--azul);
+}
+
+.navbar input {
+  border-color: var(--azul) !important;
+  border-left: none !important;
+  height: 30px;
+  max-width: 200px;
+  border-radius: 8px;
+}
+
+.navbar .input-group span {
+  background-color: #fff !important;
+  border-right: none !important;
+  border-color: var(--azul) !important;
+  color: var(--azul) !important;
+  height: 30px;
+  padding: 3px;
+  border-radius: 8px;
+}
+
+.navbar input:focus {
+  box-shadow: none !important;
+}
+
+nav span.name {
+  font-weight: bold;
+}
+
+nav .dropdown-usuario button,
+nav .dropdown-usuario button:hover,
+nav .dropdown-usuario button:enabled {
+  color: #555;
+}
+
+.dropdown button {
+  display: flex;
+  align-items: center !important;
+}
+
+.dropdown-usuario img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.nav-icons {
+  height: 25px;
+  border-right: 2px solid var(--azul);
+}
+
+.nav-icons button {
+  border: none;
+  background-color: #fff;
+  color: var(--azul);
+}
+
+.nav-icons button span {
+  position: relative;
+  right: 7px;
+  bottom: 12px;
+  font-size: 10px;
+  border-radius: 50%;
+  padding: 2px;
+  color: #fff;
+}
+
+.nav-icons button.shop span {
+  background-color: var(--roxo);
+}
+.nav-icons button.notf span {
+  background-color: var(--vermelho);
+}

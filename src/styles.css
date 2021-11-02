@@ -1,0 +1,22 @@
+:root {
+  --azul: #24b0bf;
+  --roxo: #663873;
+  --vermelho: #d90d1e;
+}
+
+body {
+  background-color: #f7f8fc;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.App {
+  font-family: sans-serif;
+}
+
+.conteudo {
+  width: 100%;
+  height: 90%;
+  display: flex;
+}

@@ -1,0 +1,43 @@
+.navleft {
+  background-color: #fff;
+  margin: 20px;
+  min-width: 230px;
+  border-radius: 15px;
+  padding: 20px;
+  font-weight: bold;
+  display: inline-block;
+  flex: 1;
+}
+
+.navleft a {
+  text-decoration: none;
+  color: var(--azul);
+  padding: 10px 5px;
+  border-radius: 10px;
+  font-size: 12px;
+  width: 100%;
+  display: block;
+}
+
+.navleft a.active {
+  background-color: rgba(238, 238, 238);
+}
+
+.navleft a:hover {
+  background-color: rgb(224, 224, 224);
+}
+
+.navleft a span {
+  margin-left: 5px;
+}
+
+.navleft ul {
+  list-style-type: none;
+  padding: 0;
+  color: var(--azul);
+}
+
+.navleft div > span {
+  color: #777;
+  font-size: 12px;
+}
